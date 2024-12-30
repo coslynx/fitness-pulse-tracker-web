@@ -1,0 +1,26 @@
+{
+  "npm-start": {
+    "command": "npm start",
+    "description": "Starts the application in production mode"
+  },
+    "npm-dev": {
+        "command": "npm run dev",
+        "description": "Starts the application in development mode"
+    },
+  "npm-build": {
+    "command": "npm run build",
+    "description": "Builds the application"
+  },
+  "npm-test": {
+    "command": "npm test",
+    "description": "Runs the application tests"
+  },
+    "server-start": {
+      "command": "node server.js",
+      "description": "Starts the Node.js server directly"
+    },
+    "install-dependencies": {
+        "command": "npm install",
+        "description": "Installs all required project dependencies"
+    }
+}
